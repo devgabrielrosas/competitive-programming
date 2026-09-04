@@ -1,1 +1,51 @@
-.vscode
+# ===== C++ =====
+# Binários compilados
+*.exe
+*.out
+*.o
+*.obj
+a.out
+*.bin
+output/
+
+# Comum em setups de CP (nome do executável = nome do .cpp sem extensão)
+!*.cpp
+!*.h
+!*.hpp
+
+# Diretórios de build
+build/
+bin/
+cmake-build-*/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ===== Testes / arquivos de I/O de juízes =====
+*.in
+*.out.txt
+*.ans
+input.txt
+output.txt
+error.txt
+test_cases/
+
+# ===== Editores / IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Sistema =====
+.DS_Store
+Thumbs.db
+
+# ===== Diversos =====
+*.log
+*.tmp
+.cache/
