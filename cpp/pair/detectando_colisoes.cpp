@@ -1,0 +1,1 @@
+https://olimpiada.ic.unicamp.br/pratique/p1/2007/f1/colisoes/
